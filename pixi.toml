@@ -1,0 +1,13 @@
+[workspace]
+authors = ["kishan <2149kishan7@gmail.com>"]
+channels = ['conda-forge']
+name = "iit-mandi-example"
+platforms = ['linux-64', "osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+test = "python test.py"
+
+[dependencies]
+scipy = ">=1.18.1,<2"
+matplotlib = ">=3.11.2,<4"
